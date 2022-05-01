@@ -448,10 +448,22 @@
   .header-burger::after {
     bottom: 0;
   }
-
-  /*  */
   
   .info-about-me > p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 416px) {
+
+  .line-above-skills {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .line-above-skills {
+    margin-top: 300px;
   }
 }
